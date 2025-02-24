@@ -91,6 +91,25 @@
 .margin-left-small {
     margin-left: 14px;
 }
+.logout{
+    margin: 0 5px;
+    border-radius: 5px;
+    border:none;
+    background: red;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+}
+.upload{
+    margin: 0 5px;
+    border-radius: 5px;
+    border:none;
+    background:#5ca37f;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+}
+
 
 main {
     height: calc(100vh - 54px);
@@ -300,7 +319,7 @@ main {
 }
 .title {
     font-size: 14px;
-    fontweight: 600;
+    font-weight: 600;
     color: #8e8e8e;
 }
 .see-all-btn {
@@ -344,3 +363,18 @@ main {
 .body img {
     width: 100%;
 }
+.container{
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 200px 330px; 
+    background-color: #ca6a82;
+    padding: 20px 0px;
+}
+.choose-file{
+    padding-left: 80px;
+}
+
